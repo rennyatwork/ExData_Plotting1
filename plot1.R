@@ -13,3 +13,9 @@
 #plot(x=dt$dateTime, y=dt$Global_active_power, type='l', ylab="Global Active Power (kilowatts)", xlab="")
 #dev.copy(png, "plot2.png", width=480, height=480)
 # dev.off()
+
+#plot3
+#plot(x=dt$dateTime, y=dt$Sub_metering_1, type='l' ,ylab="Energy sub metering", xlab="")
+#points(x=dt$dateTime, y=dt$Sub_metering_2, type='l', col='red')
+#points(x=dt$dateTime, y=dt$Sub_metering_3, type='l', col='blue')
+#legend('topright', legend=c('Sub_metering_1', 'Sub_metering_2', 'Sub_metering_3'), col=c('black', 'red', 'blue'), lwd=1)
