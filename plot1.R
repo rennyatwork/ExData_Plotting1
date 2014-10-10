@@ -5,3 +5,11 @@
 #hist(dt$Global_active_power, col='red', xlab='Global Active Power (kilowatts)', main='Global Active Power')
 #dev.copy(png, "plot1.png", width=480, height=480)
 # dev.off()
+
+#plot2
+#dt <- transform(dt, Date = factor(Date))
+# plot(Global_active_power ~ Date, dt, xlab='Date', ylab="Global Active Power")
+#dt$wkday <- weekdays(as.Date(dt$Date, '%d/%m/%Y'))
+#plot(x=dt$dateTime, y=dt$Global_active_power, type='l', ylab="Global Active Power (kilowatts)", xlab="")
+#dev.copy(png, "plot2.png", width=480, height=480)
+# dev.off()
