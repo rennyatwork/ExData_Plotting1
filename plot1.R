@@ -21,3 +21,12 @@
 #legend('topright', legend=c('Sub_metering_1', 'Sub_metering_2', 'Sub_metering_3'), col=c('black', 'red', 'blue'), lwd=1)
 #dev.copy(png, "plot2.png", width=480, height=480)
 # dev.off()
+
+#plot 4
+# first graph:
+#  plot(x=dt$dateTime, y=dt$Global_active_power, type='l' ,ylab="Global Active Power", xlab="")
+# second graph:
+#  plot(x=dt$dateTime, y=dt$Voltage, type='l' ,ylab="Voltage", xlab="datetime")
+# third graph: see plot 3
+# fourth graph
+#  plot(x=dt$dateTime, y=dt$Global_reactive_power, type='l' ,ylab="Global Active Power", xlab="")
