@@ -1,6 +1,6 @@
+##Plots graph 4
 plot4 <- function()
-{
-  #source(paste(paste(getwd(),"/", sep=""), "plot1.R", sep=""))
+{  
   source(paste(paste(getwd(),"/", sep=""), "plot3.R", sep=""))
   dt <- getDt();
   

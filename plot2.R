@@ -1,3 +1,4 @@
+## Plots graph 2
 plot2 <- function()
 {
   source(paste(paste(getwd(),"/", sep=""), "plot1.R", sep=""))
