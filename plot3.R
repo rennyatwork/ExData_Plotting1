@@ -1,5 +1,5 @@
 ## Plots graph 3
-plot3 <- function()
+plot3 <- function(pBty="y", pCex=0.6)
 {
   source(paste(paste(getwd(),"/", sep=""), "plot1.R", sep=""))
   dt <- getDt();
